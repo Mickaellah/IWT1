@@ -1,0 +1,44 @@
+.easybank {
+    padding: 16px;
+    text-align: center;
+    background-color: hsl(220, 16%, 96%);
+    color: hsl(233, 8%, 62%);
+    padding-block-end: 48px;
+}
+
+.easybank__header {
+    font-size: 36px;
+    color: hsl(233, 26%, 24%);
+}
+
+.easybank__banking,
+.easybank__budgeting,
+.easybank__onboarding,
+.easybank__API {
+    margin-block-start: 64px;
+}
+
+.easybank__banking_heading,
+.easybank__budgeting_heading,
+.easybank__onboarding_heading,
+.easybank__API_heading {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.easybank__banking_header,
+.easybank__budgeting_header,
+.easybank__onboarding_header,
+.easybank__API_header {
+    color: hsl(233, 26%, 24%);
+    font-size: 24px;
+}
+
+.easybank__banking_image,
+.easybank__budgeting_image,
+.easybank__onboarding_image,
+.easybank__API_image {
+    width: 64px;
+    height: 64px;
+    margin-inline-start: 43%;
+}
