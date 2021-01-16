@@ -116,3 +116,46 @@ a {
   width: 64px;
   height: 64px;
   margin-inline-start: 43%; }
+
+.articles {
+  padding: 16px;
+  padding-block-start: 48px;
+  background-color: #fafafa;
+  color: #9698a6; }
+
+.articles__header {
+  font-size: 36px;
+  color: #2d314d; }
+
+.articles__currency,
+.articles__restaurant,
+.articles__plane,
+.article__confetti {
+  background-color: white;
+  border-radius: 5px; }
+
+.articles__currency_heading,
+.articles__restaurant_heading,
+.articles__plane_heading,
+.article__confetti_heading {
+  display: flex;
+  flex-direction: column-reverse; }
+
+.articles__currency_header,
+.articles__restaurant_header,
+.articles__plane_header,
+.article__confetti_header {
+  font-size: 24px;
+  color: #2d314d; }
+
+.articles__currency_image,
+.articles__restaurant_image,
+.articles__plane_image,
+.article__confetti_image {
+  width: 100%; }
+
+.articles__currency_creator,
+.articles__restaurant_creator,
+.articles__plane_creator,
+.article__confetti_creator {
+  margin-block-start: 32px; }
