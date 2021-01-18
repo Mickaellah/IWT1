@@ -35,6 +35,9 @@ button {
 .masthead__label_menu::before {
   content: url("../icons/icon-hamburger.svg"); }
 
+.masthead__label_menu:active::before {
+  content: url("../icons/icon-close.svg"); }
+
 .masthead__navigation {
   margin-block-start: 64px;
   position: absolute;
