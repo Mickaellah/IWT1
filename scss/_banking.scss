@@ -1,11 +1,21 @@
 .banking {
-    margin: 16px;
     text-align: center;
     padding-block-end: 48px;
 }
 
 .banking__header {
     font-size: 36px;
+}
+
+.banking__heading,
+.banking__content {
+    margin: 16px;
+}
+
+.banking__mockup {
+    width: 100%;
+    background-image: url('../img/svg/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
 }
 
 .banking__button {
