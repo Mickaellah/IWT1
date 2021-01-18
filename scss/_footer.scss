@@ -10,7 +10,7 @@
 }
 
 .footer__logo {
-    fill: white;
+    
 }
 
 .footer__social_media_navigation_container {
@@ -19,8 +19,8 @@
     grid-template-columns: repeat(6, 1fr);
 }
 
-.footer__links_navigation_container {
-
+.footer__links_list {
+    margin: 16px;
 }
 
 .footer__link {
