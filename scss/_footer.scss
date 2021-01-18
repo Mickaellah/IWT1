@@ -9,10 +9,6 @@
     margin: 16px;
 }
 
-.footer__logo {
-    
-}
-
 .footer__social_media_navigation_container {
     margin-inline-start: 48px;
     display: grid;
@@ -24,14 +20,21 @@
 }
 
 .footer__link {
-    color: hsl(233, 8%, 62%);
+    color: hsl(220, 16%, 96%);
 }
 
 .footer__button_request {
     margin-block-start: 32px;
     padding-block: 16px;
     padding-inline: 32px;
+    color: white;
     border: none;
     border-radius: 24px;
     background: linear-gradient(to right, hsl(136, 65%, 51%) 30%, hsl(192, 70%, 51%) 100%);
+}
+
+.footer__copyright {
+    font-family: "Public Sans Light";
+    color: hsl(233, 8%, 62%);
+    margin-block-start: 32px;
 }

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Public Sans Bold";
+    src: url('../fonts/PublicSans-Bold.woff2') format('woff2'),
+        url('../fonts/PublicSans-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Public Sans Regular";
+    src: url('../fonts/PublicSans-Regular.woff2') format('woff2'),
+        url('../fonts/PublicSans-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Public Sans Light";
+    src: url('../fonts/PublicSans-Light.woff2') format('woff2'),
+        url('../fonts/PublicSans-Light.woff') format('woff');
+    font-weight: 300;
+}

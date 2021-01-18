@@ -1,5 +1,22 @@
+@font-face {
+  font-family: "Public Sans Bold";
+  src: url("../fonts/PublicSans-Bold.woff2") format("woff2"), url("../fonts/PublicSans-Bold.woff") format("woff");
+  font-weight: 700; }
+
+@font-face {
+  font-family: "Public Sans Regular";
+  src: url("../fonts/PublicSans-Regular.woff2") format("woff2"), url("../fonts/PublicSans-Regular.woff") format("woff");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Public Sans Light";
+  src: url("../fonts/PublicSans-Light.woff2") format("woff2"), url("../fonts/PublicSans-Light.woff") format("woff");
+  font-weight: 300; }
+
 body {
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: "Public Sans Regular";
+  color: #9698a6; }
 
 ul {
   padding: 0; }
@@ -11,7 +28,17 @@ a {
   text-decoration: none; }
 
 button {
+  font-size: 18px;
   cursor: pointer; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Public Sans Bold";
+  color: #2d314d; }
 
 .masthead {
   display: flex;
@@ -87,6 +114,7 @@ button {
   padding-block: 16px;
   padding-inline: 32px;
   border: none;
+  color: white;
   border-radius: 24px;
   background: linear-gradient(to right, #31d35c 30%, #2bb7da 100%); }
 
@@ -94,12 +122,10 @@ button {
   padding: 16px;
   text-align: center;
   background-color: #f3f4f6;
-  color: #9698a6;
   padding-block-end: 48px; }
 
 .easybank__header {
-  font-size: 36px;
-  color: #2d314d; }
+  font-size: 36px; }
 
 .easybank__banking,
 .easybank__budgeting,
@@ -177,6 +203,7 @@ button {
 .articles__restaurant_creator,
 .articles__plane_creator,
 .articles__confetti_creator {
+  font-family: "Public Sans Light";
   font-size: 12px;
   margin-block-start: 32px;
   padding-inline: 32px; }
@@ -206,12 +233,18 @@ button {
   margin: 16px; }
 
 .footer__link {
-  color: #9698a6; }
+  color: #f3f4f6; }
 
 .footer__button_request {
   margin-block-start: 32px;
   padding-block: 16px;
   padding-inline: 32px;
+  color: white;
   border: none;
   border-radius: 24px;
   background: linear-gradient(to right, #31d35c 30%, #2bb7da 100%); }
+
+.footer__copyright {
+  font-family: "Public Sans Light";
+  color: #9698a6;
+  margin-block-start: 32px; }

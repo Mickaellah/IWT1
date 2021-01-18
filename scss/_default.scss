@@ -1,5 +1,7 @@
 body {
     font-size: 18px;
+    font-family: "Public Sans Regular";
+    color: hsl(233, 8%, 62%);
 }
 
 ul {
@@ -15,5 +17,16 @@ a {
 }
 
 button {
+    font-size: 18px;
     cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Public Sans Bold";
+    color: hsl(233, 26%, 24%);
 }
