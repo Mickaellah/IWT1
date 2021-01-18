@@ -29,6 +29,7 @@ button {
   margin-block-start: 8px; }
 
 .masthead__label_menu {
+  cursor: pointer;
   color: transparent;
   margin-inline-end: -48px; }
 
