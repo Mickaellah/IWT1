@@ -1,3 +1,6 @@
+body {
+  font-size: 18px; }
+
 ul {
   padding: 0; }
 
@@ -123,6 +126,9 @@ a {
   background-color: #fafafa;
   color: #9698a6; }
 
+.articles > article {
+  margin-block-start: 32px; }
+
 .articles__header {
   font-size: 36px;
   color: #2d314d; }
@@ -130,32 +136,45 @@ a {
 .articles__currency,
 .articles__restaurant,
 .articles__plane,
-.article__confetti {
+.articles__confetti {
   background-color: white;
   border-radius: 5px; }
 
 .articles__currency_heading,
 .articles__restaurant_heading,
 .articles__plane_heading,
-.article__confetti_heading {
+.articles__confetti_heading {
   display: flex;
   flex-direction: column-reverse; }
 
 .articles__currency_header,
 .articles__restaurant_header,
 .articles__plane_header,
-.article__confetti_header {
+.articles__confetti_header {
+  margin: 0;
   font-size: 24px;
-  color: #2d314d; }
+  color: #2d314d;
+  padding-inline: 32px; }
 
 .articles__currency_image,
 .articles__restaurant_image,
 .articles__plane_image,
-.article__confetti_image {
+.articles__confetti_image {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   width: 100%; }
 
 .articles__currency_creator,
 .articles__restaurant_creator,
 .articles__plane_creator,
-.article__confetti_creator {
-  margin-block-start: 32px; }
+.articles__confetti_creator {
+  font-size: 12px;
+  margin-block-start: 32px;
+  padding-inline: 32px; }
+
+.articles__currency_description,
+.articles__restaurant_description,
+.articles__plane_description,
+.articles__confetti_description {
+  padding-inline: 32px;
+  padding-block-end: 48px; }
