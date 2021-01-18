@@ -10,6 +10,9 @@ li {
 a {
   text-decoration: none; }
 
+button {
+  cursor: pointer; }
+
 .masthead {
   display: flex;
   flex-direction: row;
@@ -124,7 +127,7 @@ a {
 
 .articles {
   padding: 16px;
-  padding-block-start: 48px;
+  padding-block: 64px;
   background-color: #fafafa;
   color: #9698a6; }
 
