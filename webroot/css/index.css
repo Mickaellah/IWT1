@@ -16,7 +16,8 @@
 body {
   font-size: 18px;
   font-family: "Public Sans Regular";
-  color: #9698a6; }
+  color: #9698a6;
+  margin: 0; }
 
 ul {
   padding: 0; }
@@ -110,6 +111,7 @@ h6 {
   flex-direction: column-reverse; }
 
 .banking__header {
+  margin: 16px;
   font-size: 36px; }
 
 .banking__content {
