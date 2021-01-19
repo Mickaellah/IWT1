@@ -122,6 +122,9 @@ h6 {
   background-repeat: no-repeat;
   background-position: center center; }
 
+.banking__mockup_desktop {
+  display: none; }
+
 .banking__button {
   margin-block-start: 32px;
   padding-block: 16px;
