@@ -31,3 +31,17 @@ h6 {
     font-family: "Public Sans Bold";
     color: hsl(233, 26%, 24%);
 }
+
+@media (min-width: 600px) {
+    .masthead__container {
+        max-width: 1160px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+
+    section > * {
+        max-width: 1160px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+}

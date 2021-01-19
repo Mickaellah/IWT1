@@ -8,55 +8,62 @@
 </head>
 <body>
     <input type="checkbox" id="checkbox_menu" />
-    <header class="masthead">
-        <h1 class="masthead__header">
-            <img src="./img/svg/logo.svg" alt="Logo"/>
-        </h1>
+    <div class="masthead__container">
+        <header class="masthead">
+            <h1 class="masthead__header">
+                <img src="./img/svg/logo.svg" alt="Logo"/>
+            </h1>
 
-        <div class="masthead__menu">
-            <label class="masthead__label_menu" for="checkbox_menu">Menu</label>
+            <div class="masthead__menu">
+                <label class="masthead__label_menu" for="checkbox_menu">Menu</label>
+            </div>
+        </header>
+        <nav class="masthead__navigation">
+            <ul class="masthead__navigation_container">
+                <li class="masthead__list_item">
+                    <a class="masthead__link" href="/">Home</a>
+                </li>
+                <li class="masthead__list_item">
+                    <a class="masthead__link" href="/about">About</a>
+                </li>
+                <li class="masthead__list_item">
+                    <a class="masthead__link" href="/contact">Contact</a>
+                </li>
+                <li class="masthead__list_item">
+                    <a class="masthead__link" href="/blog">Blog</a>
+                </li>
+                <li class="masthead__list_item">
+                    <a class="masthead__link" href="/careers">Careers</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="masthead__bttn_container">
+            <button class="masthead__bttn">Request Invite</button>
         </div>
-    </header>
-    <nav class="masthead__navigation">
-        <ul class="masthead__navigation_container">
-            <li class="masthead__list_item">
-                <a class="masthead__link" href="/">Home</a>
-            </li>
-            <li class="masthead__list_item">
-                <a class="masthead__link" href="/about">About</a>
-            </li>
-            <li class="masthead__list_item">
-                <a class="masthead__link" href="/contact">Contact</a>
-            </li>
-            <li class="masthead__list_item">
-                <a class="masthead__link" href="/blog">Blog</a>
-            </li>
-            <li class="masthead__list_item">
-                <a class="masthead__link" href="/careers">Careers</a>
-            </li>
-        </ul>
-    </nav>
-
-    <div class="masthead__bttn_container">
-        <button class="masthead__bttn">Request Invite</button>
     </div>
 
     <main>
         <section class="banking">
-            <header class="banking__heading">
-                <h2 class="banking__header">
-                    Next generation digital banking
-                </h2>
+            <article class="banking__article">
+                <header class="banking__heading">
+                    <h2 class="banking__header">
+                        Next generation digital banking
+                    </h2>
+                </header>
+
+                <div class="banking__content">
+                    <p class="banking__description">
+                        Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, buggeting, investing, and much more.
+                    </p>
+
+                    <button class="banking__button">Request Invite</button>
+                </div>
+            </article>
+
+            <div class="banking__mockup_container">
                 <img class="banking__mockup" src="./img/png/image-mockups-copy.png" alt="Mockup image">
                 <img class="banking__mockup_desktop" src="./img/png/image-mockups.png" alt="Mockup image">
-            </header>
-
-            <div class="banking__content">
-                <p class="banking__description">
-                    Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, buggeting, investing, and much more.
-                </p>
-
-                <button class="banking__button">Request Invite</button>
             </div>
         </section>
 
