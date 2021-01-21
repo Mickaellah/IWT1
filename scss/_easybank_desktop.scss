@@ -1,0 +1,24 @@
+@media (min-width: 1000px) {
+    .easybank {
+        margin-block-start: -176px;
+        text-align: left;
+    }
+
+    .easybank__heading {
+        margin-block-start: 64px;
+    }
+
+    .easybank__navigation_container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .easybank__banking_image,
+    .easybank__budgeting_image,
+    .easybank__onboarding_image,
+    .easybank__API_image {
+        margin-inline-start: 0;
+    }
+}

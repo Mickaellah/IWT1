@@ -1,0 +1,20 @@
+@media (min-width: 1000px) {
+    .arcticles__navigation_container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .articles__currency_image {
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .articles__currency_image,
+    .articles__restaurant_image,
+    .articles__plane_image,
+    .articles__confetti_image {
+        object-fit: contain;
+    }
+}

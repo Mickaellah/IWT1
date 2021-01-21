@@ -225,6 +225,23 @@ h6 {
   height: 64px;
   margin-inline-start: 43%; }
 
+@media (min-width: 1000px) {
+  .easybank {
+    margin-block-start: -176px;
+    text-align: left; }
+  .easybank__heading {
+    margin-block-start: 64px; }
+  .easybank__navigation_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    column-gap: 20px; }
+  .easybank__banking_image,
+  .easybank__budgeting_image,
+  .easybank__onboarding_image,
+  .easybank__API_image {
+    margin-inline-start: 0; } }
+
 .articles {
   padding: 16px;
   padding-block: 64px;
@@ -285,6 +302,21 @@ h6 {
   padding-inline: 32px;
   padding-block-end: 48px; }
 
+@media (min-width: 1000px) {
+  .arcticles__navigation_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    column-gap: 20px; }
+  .articles__currency_image {
+    height: 180px;
+    object-fit: cover; }
+  .articles__currency_image,
+  .articles__restaurant_image,
+  .articles__plane_image,
+  .articles__confetti_image {
+    object-fit: contain; } }
+
 .footer {
   background-color: black;
   color: white;
@@ -318,3 +350,28 @@ h6 {
   font-family: "Public Sans Light";
   color: #9698a6;
   margin-block-start: 32px; }
+
+@media (min-width: 1000px) {
+  .footer {
+    padding-block-end: 0; }
+  .footer__logo {
+    margin-inline-start: -70%; }
+  .footer__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .footer__social_media_navigation_container {
+    margin-block-start: 40px;
+    margin-inline-start: 80px;
+    display: grid;
+    grid-column-gap: 15px;
+    column-gap: 15px; }
+  .footer__links_navigation_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    margin-block-start: -80px; }
+  .footer__button_container {
+    text-align: right;
+    margin-block-start: -96px;
+    margin-inline-end: 80px; } }
