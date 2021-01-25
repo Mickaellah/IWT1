@@ -23,6 +23,11 @@
     margin-inline-end: -48px;
 }
 
+.masthead__link:hover {
+    color: black;
+    border-bottom: 3px solid mix(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
 .masthead__label_menu::before {
     content: url('../icons/icon-hamburger.svg');
 }

@@ -23,6 +23,10 @@
     color: hsl(220, 16%, 96%);
 }
 
+.footer__link:hover {
+    color: mix(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
 .footer__button_request {
     margin-block-start: 32px;
     padding-block: 16px;

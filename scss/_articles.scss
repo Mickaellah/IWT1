@@ -40,6 +40,14 @@
     padding-inline: 32px;
 }
 
+.articles__currency_header:hover,
+.articles__restaurant_header:hover,
+.articles__plane_header:hover,
+.articles__confetti_header:hover {
+    color: mix(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    cursor: pointer;
+}
+
 .articles__currency_image,
 .articles__restaurant_image,
 .articles__plane_image,

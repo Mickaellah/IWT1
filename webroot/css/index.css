@@ -71,6 +71,10 @@ h6 {
   color: transparent;
   margin-inline-end: -48px; }
 
+.masthead__link:hover {
+  color: black;
+  border-bottom: 3px solid #2ec59b; }
+
 .masthead__label_menu::before {
   content: url("../icons/icon-hamburger.svg"); }
 
@@ -278,6 +282,13 @@ h6 {
   color: #2d314d;
   padding-inline: 32px; }
 
+.articles__currency_header:hover,
+.articles__restaurant_header:hover,
+.articles__plane_header:hover,
+.articles__confetti_header:hover {
+  color: #2ec59b;
+  cursor: pointer; }
+
 .articles__currency_image,
 .articles__restaurant_image,
 .articles__plane_image,
@@ -336,6 +347,9 @@ h6 {
 
 .footer__link {
   color: #f3f4f6; }
+
+.footer__link:hover {
+  color: #2ec59b; }
 
 .footer__button_request {
   margin-block-start: 32px;
