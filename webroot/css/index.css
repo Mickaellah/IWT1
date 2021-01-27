@@ -352,13 +352,13 @@ input[type="checkbox"] {
     grid-column-gap: 20px;
     column-gap: 20px; }
   .articles__currency_image {
-    height: 180px;
+    height: 184px;
     object-fit: cover; }
   .articles__currency_image,
   .articles__restaurant_image,
   .articles__plane_image,
   .articles__confetti_image {
-    object-fit: contain; } }
+    object-fit: cover; } }
 
 .footer {
   background-color: black;

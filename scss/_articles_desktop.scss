@@ -7,7 +7,7 @@
     }
 
     .articles__currency_image {
-        height: 180px;
+        height: 184px;
         object-fit: cover;
     }
 
@@ -15,6 +15,6 @@
     .articles__restaurant_image,
     .articles__plane_image,
     .articles__confetti_image {
-        object-fit: contain;
+        object-fit: cover;
     }
 }
