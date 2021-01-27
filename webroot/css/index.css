@@ -71,9 +71,12 @@ h6 {
   color: transparent;
   margin-inline-end: -48px; }
 
+.masthead__link {
+  padding-block-end: 32px; }
+
 .masthead__link:hover {
   color: black;
-  border-bottom: 3px solid #2ec59b; }
+  border-bottom: 5px solid #2ec59b; }
 
 .masthead__label_menu::before {
   content: url("../icons/icon-hamburger.svg"); }
