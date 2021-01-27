@@ -34,3 +34,13 @@
     border-radius: 24px;
     background: linear-gradient(to right, hsl(136, 65%, 51%) 30%, hsl(192, 70%, 51%) 100%);
 }
+
+@media (min-width: 375px) {
+    .banking__mockup {
+        margin: 0;
+        width: 100%;
+        background-image: url('../img/svg/bg-intro-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: center left;
+    }
+}
