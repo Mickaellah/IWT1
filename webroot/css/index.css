@@ -94,10 +94,10 @@ h6 {
 .masthead__list_item {
   margin-block-start: 16px; }
 
-[type="checkbox"] {
+input[type="checkbox"] {
   display: none; }
 
-[type="checkbox"]:checked ~ .masthead__navigation {
+input[type="checkbox"]:checked ~ .masthead__navigation {
   position: absolute;
   top: 8px;
   bottom: 0;
@@ -106,7 +106,7 @@ h6 {
   z-index: 1;
   background-color: white;
   text-align: center;
-  transform: translateX(0);
+  transform: translateX(50%);
   margin-inline-start: 24px;
   border-radius: 5px; }
 
