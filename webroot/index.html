@@ -18,25 +18,32 @@
                 <label class="masthead__label_menu" for="checkbox_menu">Menu</label>
             </div>
         </header>
-        <nav class="masthead__navigation">
-            <ul class="masthead__navigation_container">
-                <li class="masthead__list_item">
-                    <a class="masthead__link" href="/">Home</a>
-                </li>
-                <li class="masthead__list_item">
-                    <a class="masthead__link" href="/about">About</a>
-                </li>
-                <li class="masthead__list_item">
-                    <a class="masthead__link" href="/contact">Contact</a>
-                </li>
-                <li class="masthead__list_item">
-                    <a class="masthead__link" href="/blog">Blog</a>
-                </li>
-                <li class="masthead__list_item">
-                    <a class="masthead__link" href="/careers">Careers</a>
-                </li>
-            </ul>
-        </nav>
+
+        <div class="modal">
+            <div class="modal_box">
+                <span class="close-button">X</span>
+                <nav class="masthead__navigation">
+                    <ul class="masthead__navigation_container">
+                        <li class="masthead__list_item">
+                            <a class="masthead__link" href="/">Home</a>
+                        </li>
+                        <li class="masthead__list_item">
+                            <a class="masthead__link" href="/about">About</a>
+                        </li>
+                        <li class="masthead__list_item">
+                            <a class="masthead__link" href="/contact">Contact</a>
+                        </li>
+                        <li class="masthead__list_item">
+                            <a class="masthead__link" href="/blog">Blog</a>
+                        </li>
+                        <li class="masthead__list_item">
+                            <a class="masthead__link" href="/careers">Careers</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
 
         <div class="masthead__bttn_container">
             <button class="masthead__bttn">Request Invite</button>
@@ -281,5 +288,24 @@
             </div>
         </nav>
     </footer>
+    <script>
+        let modal = document.querySelector(".modal");
+        let show = document.querySelector(".masthead__label_menu");
+        let closeButton = document.querySelector(".close-button");
+
+        function toggleModal() {
+            modal.classList.toggle("masthead__label_menu");
+        }
+
+        function windowOnClick(event) {
+            if (event.target === modal) {
+                toggleModal();
+            }
+        }
+
+        show.addEventListener("click", toggleModal);
+        closeButton.addEventListener("click", toggleModal);
+        window.addEventListener("click", windowOnClick);
+    </script>
 </body>
 </html>

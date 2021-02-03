@@ -45,20 +45,21 @@
     }
 
     .masthead__navigation_container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        margin-block-start: 0;
     }
     
     .masthead__navigation {
         margin-block-start: 64px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: -350px;
-        height: 40%;
-        width: 343px;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
+        padding: 48px;
+        max-width: 300px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        text-align: center;
+        border-radius: 5px;
+        background-color: white;
+        display: block;
     }
     
     .masthead__list_item {
@@ -68,21 +69,7 @@
     input[type="checkbox"] {
         display: none;
     }
-      
-    input[type="checkbox"]:checked ~ .masthead__navigation {
-        position: absolute;
-        top: 8px;
-        bottom: 0;
-        left: 0;
-        width: 343px;
-        z-index: 1;
-        background-color: white;
-        text-align: center;
-        transform: translateX(0);
-        margin-inline-start: 24px;
-        border-radius: 5px;
-    }
-    
+
     .masthead__link {
         color: hsl(233, 8%, 62%);
     }
@@ -90,4 +77,42 @@
     .masthead__bttn {
         display: none;
     }
+
+    .modal {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        visibility: hidden;
+      }
+      .modal-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: pink;
+        padding: 1rem 1.5rem;
+        width: 24rem;
+        border-radius: 0.5rem;
+      }
+      .close-button {
+        float: right;
+        width: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 0.25rem;
+        color: white;
+        margin-block-start: -48px;
+        margin-inline-end: 16px;
+      }
+      
+      .masthead__label_menu {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1.0);
+      }
 }
