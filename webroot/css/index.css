@@ -58,8 +58,8 @@ h6 {
     justify-content: space-between;
     margin: 0; }
   .masthead__container {
-    margin-inline-start: 0;
-    margin-inline-end: 0;
+    display: inline;
+    margin: 0;
     display: block;
     padding-block: 0;
     margin: 16px; }
@@ -68,12 +68,17 @@ h6 {
   .masthead__header > img {
     width: 200px; }
   .masthead__menu {
-    margin-block-start: 8px; }
+    margin-block-start: 8px;
+    display: block;
+    margin-inline-end: 90px; }
   .masthead__label_menu {
     display: block;
     cursor: pointer;
     color: transparent;
-    margin-inline-end: -48px; }
+    margin-inline-end: -48px;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1); }
   .masthead__link {
     padding-block-end: 32px; }
   .masthead__label_menu::before {
@@ -137,6 +142,7 @@ h6 {
     transform: scale(1); } }
 
 .masthead__container {
+  display: inline;
   display: flex;
   flex-direction: row;
   justify-content: space-between; }

@@ -7,8 +7,8 @@
     } 
 
     .masthead__container {
-        margin-inline-start: 0;
-        margin-inline-end: 0;
+        display: inline;
+        margin: 0;
         display: block;
         padding-block: 0;
         margin: 16px;
@@ -24,6 +24,8 @@
     
     .masthead__menu {
         margin-block-start: 8px;
+        display: block;
+        margin-inline-end: 90px;
     }
     
     .masthead__label_menu {
@@ -31,6 +33,9 @@
         cursor: pointer;
         color: transparent;
         margin-inline-end: -48px;
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
     }
     
     .masthead__link {
