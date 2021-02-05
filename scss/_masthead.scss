@@ -1,3 +1,7 @@
+.masthead__container {
+    display: inline;
+}
+
 @media (max-width: 600px) {
     .masthead {
         display: flex;
@@ -7,7 +11,6 @@
     } 
 
     .masthead__container {
-        display: inline;
         margin: 0;
         display: block;
         padding-block: 0;
@@ -32,7 +35,7 @@
         display: block;
         cursor: pointer;
         color: transparent;
-        margin-inline-end: -48px;
+        margin-inline-end: -64px;
         opacity: 1;
         visibility: visible;
         transform: scale(1);
@@ -111,7 +114,7 @@
         cursor: pointer;
         border-radius: 0.25rem;
         color: white;
-        margin-block-start: -48px;
+        margin-block-start: -88px;
         margin-inline-end: 16px;
       }
       

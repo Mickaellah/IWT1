@@ -51,6 +51,9 @@ h6 {
     margin-inline-start: auto;
     margin-inline-end: auto; } }
 
+.masthead__container {
+  display: inline; }
+
 @media (max-width: 600px) {
   .masthead {
     display: flex;
@@ -58,7 +61,6 @@ h6 {
     justify-content: space-between;
     margin: 0; }
   .masthead__container {
-    display: inline;
     margin: 0;
     display: block;
     padding-block: 0;
@@ -75,7 +77,7 @@ h6 {
     display: block;
     cursor: pointer;
     color: transparent;
-    margin-inline-end: -48px;
+    margin-inline-end: -64px;
     opacity: 1;
     visibility: visible;
     transform: scale(1); }
@@ -134,18 +136,18 @@ h6 {
     cursor: pointer;
     border-radius: 0.25rem;
     color: white;
-    margin-block-start: -48px;
+    margin-block-start: -88px;
     margin-inline-end: 16px; }
   .masthead__label_menu {
     opacity: 1;
     visibility: visible;
     transform: scale(1); } }
 
-.masthead__container {
-  display: inline;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
+@media (min-width: 600px) {
+  .masthead__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; } }
 
 .masthead {
   grid-column: 1 / 2; }
